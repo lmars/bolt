@@ -130,8 +130,10 @@ The commands are:
 
     bench       run synthetic benchmark against bolt
     check       verifies integrity of bolt database
+    dump        print a hexidecimal dump of a single page
     info        print basic info
     help        print this screen
+    page        print one or more pages in human readable format
     pages       print list of pages with their types
     stats       iterate over all pages and generate usage stats
 
