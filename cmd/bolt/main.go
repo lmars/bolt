@@ -64,7 +64,7 @@ func main() {
 	if err := m.Run(os.Args[1:]...); err == ErrUsage {
 		os.Exit(2)
 	} else if err != nil {
-		fmt.Println(err.Error())
+		fmt.Println("ERROR:", err.Error())
 		os.Exit(1)
 	}
 }
